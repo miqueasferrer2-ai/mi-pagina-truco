@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre el truco</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>El truco</h1>
+        <nav>
+            <ul>
+                <li><a href="#cartas">Cartas</a></li>
+                <li><a href="#valores">Valores</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="cartas">
+            <h2>Las cartas</h2>
+            <p>El truco se juega con <strong>40 cartas</strong>, cada uno tiene <em>3 cartas</em> y <mark>gana el que hace 2 manos</mark>.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Spanish_National_pattern.png/960px-Spanish_National_pattern.png" alt="Cartas españolas">
+            <ol id="valores">
+                <li>Ancho de espada</li>
+                <li>Ancho de basto</li>
+                <li>Siete de espada</li>
+            </ol>
+        </article>
+
+        <form id="contacto">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="jugadores">Jugadores</label>
+            <select id="jugadores" name="jugadores">
+                <option>2</option>
+                <option>4</option>
+                <option>6</option>
+            </select>
+            <br>
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <small>Miqueas Ferrer 2026</small>
+    </footer>
+</body>
+</html>

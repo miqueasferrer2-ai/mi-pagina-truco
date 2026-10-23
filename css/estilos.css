@@ -1,0 +1,29 @@
+:root {
+    --color-principal: green;
+    --color-secundario: red;
+    --fuente-base: Arial;
+}
+
+body {
+    background-color: lightyellow;
+    color: black;
+    font-family: var(--fuente-base);
+}
+
+nav a:hover {
+    color: var(--color-principal);
+}
+
+img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+#contacto {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.boton {
+    background-color: var(--color-secundario);
+}
